@@ -78,7 +78,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('game.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('abi.jpeg', cv2.IMREAD_GRAYSCALE)
 
 plt.imshow(img, cmap='gray')
 plt.title('Original GrayScale Image')
@@ -108,7 +108,7 @@ plt.show()
 ```
 6. Read the image in color mode and convert to HSV.
 ```
-img = cv2.imread('game.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('abi.jpeg', cv2.IMREAD_COLOR)
 img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 ```
 7. Apply histogram equalization to the V channel.
